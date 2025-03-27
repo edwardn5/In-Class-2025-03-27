@@ -1,5 +1,6 @@
 ﻿//Jenna Liette
 
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,8 @@ namespace In_Class_2025_03_27
             Shoe myShoe = new Shoe(); // Declare and instantiate
             myShoe.Price = 49.99;  // Invoke the setter
             Console.WriteLine("Price of my new pair of shoes is " + myShoe.Price); // getter
+
+            Console.WriteLine("Taylor Johnson");
         }
     }
 }
